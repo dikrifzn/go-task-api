@@ -1,0 +1,40 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# SQLite database
+*.db
+*.db-shm
+*.db-wal
+data/
+
+# Go build artifacts
+/go-task-api
+*.exe
+*.test
+*.out
+coverage.out
+coverage.html
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.log
+
+# IDE and editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test and profiling outputs
+*.prof
+*.pprof
